@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 
 const Event = (props) => {
   return (
@@ -6,9 +7,9 @@ const Event = (props) => {
       <img src={props.image} alt="image" />
       <h1>{props.name}</h1>
       <h2>{props.location}</h2>
-      <a href={props.link}>
-        <button>Website</button>
-      </a>
+      <div className="link-button">
+        <Button href={props.link}>Website</Button>
+      </div>
     </div>
   );
 };

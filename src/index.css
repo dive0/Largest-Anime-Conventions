@@ -1,0 +1,45 @@
+.Cover {
+  height: 50vh;
+}
+
+.Cover h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: auto;
+  padding: 25vh;
+}
+
+.Event {
+  margin-top: 2rem;
+  background-color: #3c6478;
+  height: 470px;
+  width: 300px;
+  position: relative;
+  color: white
+}
+
+.Event h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.Event h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+
+img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.link-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}

@@ -1,11 +1,14 @@
 import './App.css';
 import Convention from './components/Convention';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
 
   return (
     <div className="App">
-      <h1>Largest Anime Conventions</h1>
+      <div className='Cover'>
+        <h1>Largest Anime Conventions</h1>
+      </div>
       <Convention />
     </div>
   )
