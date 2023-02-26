@@ -1,22 +1,22 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - Largest Anime Conventions
 
 Submitted by: Shi Wei Zheng
 
-This web app: **insert description**
+This web app: This web is a list of the largest anime conventions around the world. It is a responsive web app that is built with React.
 
-Time spent: **X** hours spent in total
+Time spent: 6 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **There is a unique theme for events or resources relevant to a specific community**
-- [ ] **At least 10 unique resources or events are displayed in a responsive card format**
+- [x] **There is a unique theme for events or resources relevant to a specific community**
+- [x] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 
-- [ ] Buttons or links to a related resources are on each card component
-- [ ] The site is responsive for both desktop and mobile formats
+- [x] Buttons or links to a related resources are on each card component
+- [x] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
 
@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./src/assets/Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ShareX.  
@@ -38,6 +38,8 @@ GIF created with ShareX.
 ## Notes
 
 Describe any challenges encountered while building the app.
+- I had a hard time trying to style the page to the way I like it to since my CSS code sometimes overlap with each other. This makes other style invalid. I had to go back to check which part of the code is causing the problem.
+- I also had a hard time trying to make the page responsive. I use React Bootstrap, but it is still not perfect. For example, in the last row. there a gap between the two cards. I played around with different ways to fix the problem, but I still can't find a way to fix it.
 
 ## License
 
